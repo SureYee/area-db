@@ -1,0 +1,24 @@
+{
+    "name": "sureyee/area-db",
+    "description": "国内区域信息查询",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yixu",
+            "email": "yixu@sureyee.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sureyee\\AreaDB\\" : "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
